@@ -1,5 +1,5 @@
 // Provider specific configs
-provider "alicloud" {
+provider "alicloud  " {
   version              = ">=1.56.0"
   region               = var.region != "" ? var.region : null
   configuration_source = "terraform-alicloud-modules/kubernetes"

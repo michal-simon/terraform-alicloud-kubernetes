@@ -3,4 +3,4 @@ version: '1'
 tools:
   tflint:
     files:
-      - ./main.tf
+      - ./*.tf
